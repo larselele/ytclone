@@ -1,0 +1,34 @@
+BODY {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+/* STILER SOM GJØR DET LETTERE Å SE BOKSENE SOM LAGER LAYOUTEN. FJERN DISSE */
+
+.header {
+  border: 2px solid pink;
+  display: flex;
+}
+
+.left-container {
+  border: 1px solid red;
+}
+
+.right-container {
+  border: 1px solid blue;
+}
+
+.middle-container {
+  border: 1px solid green;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+#youtube-logo {
+  height: 20px;
+}
+
+/* SKRIV STILER UNDER HER */

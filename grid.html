@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid practice</title>
+        <style>
+.youtube-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.column{
+    height: 300px;
+    background-color: lightsalmon;
+}
+
+.gridtest{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    column-gap: 12px;
+    margin-top: 48px;
+}
+
+.add-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+}
+        </style>
+    </head>
+    <body>
+        <div class="youtube-grid">
+            <div class="column">1fr</div>
+            <div class="column">1fr</div>
+            <div class="column">1fr</div>
+            <div class="column">1fr</div>
+            <div class="column">1fr</div>
+            <div class="column">1fr</div>
+        </div>
+
+        <div class="gridtest">
+            <div style="background-color: lightblue;">50px</div>
+            <div style="background-color: lightblue;">fr</div>
+            <div style="background-color: lightblue;">75x</div>
+
+        </div>
+
+        <div class="add-grid">
+            
+        </div>
+
+    </body>
+</html>
